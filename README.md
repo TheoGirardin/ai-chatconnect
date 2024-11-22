@@ -25,12 +25,13 @@ AI ChatConnect is a responsive, feature-rich Next.js-based interface designed to
 ## Setup Instructions
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/your-username/ai-chatconnect.git
     cd ai-chatconnect
     ```
 
-Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
@@ -39,6 +40,7 @@ npm install
 Configure the AI API endpoint:
 
 Update the fetch URL in handleSubmit inside pages/index.tsx if your backend API URL is different.
+
 Run the development server:
 
 ```bash
@@ -75,7 +77,7 @@ If there’s an issue, an error message will appear to help debug.
 
 ## Project Structure
 
-```csharp
+```bash
 .
 ├── public/
 │ └── favicon.ico # Favicon
